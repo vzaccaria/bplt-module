@@ -26,6 +26,11 @@ generateProject(_ => {
     _.cmd("cp ./lib/index.js ./index.js")
   })
 
+    _.collect( "test", _ => {
+    _.cmd( "make all" )
+    _.cmd( "./node_modules/.bin/mocha ./lib/test.js" )
+  } )
+
   _.collect("update", _ => {
     _.cmd("make clean && ./node_modules/.bin/babel configure.js | node")
   });
