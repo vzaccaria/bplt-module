@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "No name given yet",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "make test"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/vzaccaria/{{name}}.git"
@@ -23,6 +25,9 @@
     "diy-build": "^1.0.8",
     "xyz": "*",
     "verb": "*",
-    "verb-cli": "*"
+    "verb-cli": "*",
+    "mocha": "*",
+    "chai": "*",
+    "chai-as-promised": "*"
   }
 }

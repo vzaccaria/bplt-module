@@ -1,16 +1,16 @@
-var shelljs = require('shelljs')
-var promise = require('bluebird')
-var _ = require('lodash')
+var shelljs = require( 'shelljs' )
+var promise = require( 'bluebird' )
+var _ = require( 'lodash' )
 
 var _module = () => {
 
-    var foo = () => {
+  var foo = () => {
 
-    }
+  }
 
-    return {
-        foo
-    }
+  return {
+    foo
+  }
 }
 
 module.exports = _module()
