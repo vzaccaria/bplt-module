@@ -4,11 +4,15 @@
 
 {%= partial("description.md") %}
 
-## Author
+# API
+
+{%= partial("api.md") %}
+
+# Author
 
 * Vittorio Zaccaria
 
-## License
+# License
 {%= copyright() %}
 {%= license() %}
 
