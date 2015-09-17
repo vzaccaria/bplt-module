@@ -4,11 +4,8 @@
     "node": true,
     "shelljs": true
   },
+  "extends": "eslint:recommended",
   "rules": {
-    "quotes": "double",
-    "no-extra-semi": false,
-    "semi": "never",
-    "eol-last": false,
-    "no-shadow": false
+    "no-console": 0
   }
 }
